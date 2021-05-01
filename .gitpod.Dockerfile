@@ -5,4 +5,4 @@ FROM gitpod/workspace-full-vnc
 # RUN brew install bastet
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN git clone https://github.com/akhilnarang/scripts.git && cd scripts && cd scripts \
+RUN git clone https://github.com/akhilnarang/scripts.git scripts && cd scripts && cd scripts \
